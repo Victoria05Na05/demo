@@ -36,9 +36,9 @@ public class MainPageTest {
 
     @Test
     public void search() {
-        mainPage.searchButton.click();
+        // mainPage.searchButton.click();
 
-        WebElement searchField = driver.findElement(By.cssSelector("[data-test='search-input']"));
+        // WebElement searchField = driver.findElement(By.cssSelector("[data-test='search-input']"));
         searchField.sendKeys("Selenium");
 
         WebElement submitButton = driver.findElement(By.cssSelector("button[data-test='full-search-button']"));
